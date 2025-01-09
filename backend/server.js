@@ -18,7 +18,6 @@ app.use(bodyParser.json({limit: '6000mb'}));
 
 app.use(cors());
 app.use(morgan('tiny'));
-// less hackers know about my stack
 app.disable('x-powered-by');
 
 // port number on which I will be handling my backend
